@@ -1,14 +1,95 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Formative Assessment 1</title>
+    <title>Inventory Systems and Form</title>
 </head>
-<body>
+<body bgcolor="#f0f0f0">
 
-  <object data="Acha_FA1.pdf" type="application/pdf" width="100%" height="600"></object>
+<table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; font-family: Arial; margin-left:auto; margin-right:auto;">
+    <tr bgcolor="#4F81BD">
+        <th colspan="6"><font color="white">INVENTORY SYSTEMS</font></th>
+    </tr>
+    <tr bgcolor="#D9D9D9">
+        <th>ID</th>
+        <th>Name</th>
+        <th>Quantity</th>
+        <th>Supplier</th>
+        <th>Date</th>
+        <th>Image</th>
+    </tr>
+    <tr>
+        <td>10001</td>
+        <td>Boy Bawang Adobo (pc)</td>
+        <td>1000</td>
+        <td bgcolor="yellow" rowspan="8" style="border-left: none; border-right: none; text-align:center; vertical-align: middle;"><b>KSK</b></td>
+        <td rowspan="2">5/14/2019</td>
+        <td rowspan="8" style="border-right: none;">
+            <img src="boy bawang.jfif" style="width: 100%; max-width: 200px; height: auto;">
+        </td>
+    </tr>
+    <tr>
+        <td>10002</td>
+        <td>Boy Bawang Adobo (pack)</td>
+        <td>200</td>
+    </tr>
+    <tr bgcolor="#D9D9D9">
+        <td>10003</td>
+        <td>Boy Bawang Garlic (pc)</td>
+        <td>3000</td>
+        <td rowspan="2" bgcolor="#D9D9D9">5/15/2019</td>
+    </tr>
+    <tr bgcolor="#D9D9D9">
+        <td>10004</td>
+        <td>Boy Bawang Garlic (pack)</td>
+        <td><font color="red">150</font></td>
+    </tr>
+    <tr>
+        <td>10005</td>
+        <td>Boy Bawang Spicy (pc)</td>
+        <td>4000</td>
+        <td rowspan="2">5/16/2019</td>
+    </tr>
+    <tr>
+        <td>10006</td>
+        <td>Boy Bawang Spicy (pack)</td>
+        <td>240</td>
+    </tr>
+    <tr bgcolor="#D9D9D9">
+        <td>10007</td>
+        <td>Boy Bawang BBQ (pc)</td>
+        <td>3000</td>
+        <td rowspan="2" bgcolor="#D9D9D9">5/17/2019</td>
+    </tr>
+    <tr bgcolor="#D9D9D9">
+        <td>10008</td>
+        <td>Boy Bawang BBQ (pack)</td>
+        <td>210</td>
+    </tr>
+</table>
 
-  <br><br>
-  <a href="index.html">HOME</a>
+<br><br>
+
+<form>
+    <label for="name">Your Name*</label><br>
+    <input type="text" id="name" name="name" size="60"><br><br>
+
+    <label for="email">Email*</label><br>
+    <input type="email" id="email" name="email" size="60"><br><br>
+
+    <label for="contact">Contact No.*</label><br>
+    <input type="text" id="contact" name="contact" size="60"><br><br>
+
+    <label for="message">Message</label><br>
+    <textarea id="message" name="message" rows="6" cols="58"></textarea><br><br>
+
+    <label for="required">required field*</label><br>
+    <input type="text" id="required" name="required" size="60"><br><br>
+
+    <input type="submit" value="Submit" style="background-color: yellow; padding: 6px 20px;">
+</form>
+
+<br><br>
+<a href="index.html">HOME</a>
 
 </body>
 </html>
